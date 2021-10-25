@@ -1,3 +1,8 @@
+header{
+    background-color: orange;
+}
+
+
 .mountains {
     background-image: url(https://i.huffpost.com/gen/1763525/images/o-ROCKY-MOUNTAINS-COLORADO-facebook.jpg);
     height: 450px;
@@ -7,3 +12,6 @@
     background-position: center;
 }
 
+h2, p{
+    background-color: orange;
+}
