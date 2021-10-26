@@ -11,3 +11,21 @@ html{
 a{
     text-decoration: none;
 }
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Hero Section*/
+#hero{
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-chinese-style-elegant-pattern-advertising-background-styleelegantelegantflower-branchgoldxiangyunhand-painted-image_77403.jpg)
+}
+
+
+/*Hero Section End*/
