@@ -27,5 +27,12 @@ a{
     background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-chinese-style-elegant-pattern-advertising-background-styleelegantelegantflower-branchgoldxiangyunhand-painted-image_77403.jpg)
 }
 
+#hero h1{
+    color:white;
+    font-size: 4rem;
+    width: fit-content;
+    position: relative;
+    display: block;
+}
 
 /*Hero Section End*/
