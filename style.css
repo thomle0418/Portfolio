@@ -6,7 +6,7 @@
 }
 html{
     font-size: 10px;
-    font-family: 'Roboto Mono', sans-serif;
+    /*font-family: 'Roboto Mono', sans-serif;*/
 }
 a{
     text-decoration: none;
@@ -28,15 +28,40 @@ a{
 }
 
 #hero h1{
+    display:block;
+    position: relative;
     color:white;
     font-size: 4rem;
-    width: fit-content;
-    position: relative;
-    display: block;
+    width: fit-content;s
+}
+
+#hero  {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: white;
 }
 
 .button1{
-    display: inline-block;
+    display: block;
     padding: 10px 30px;
     color: white;
     background-color: transparent;
@@ -54,3 +79,13 @@ a{
 }
 
 /*Hero Section End*/
+@keyframes typing {
+    from {
+    width: 0
+    }
+}
+@keyframes blink {
+    50% {
+    border-color: transparent
+    }
+}
