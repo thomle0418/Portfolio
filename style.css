@@ -35,4 +35,22 @@ a{
     display: block;
 }
 
+.button1{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 3px black solid;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition-duration: 3s ease;
+    transition-property: backgroung-color, color;
+}
+#hero .button1:hover{
+    color: white;
+    background-color: black;
+}
+
 /*Hero Section End*/
