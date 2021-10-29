@@ -9,42 +9,22 @@ html{
 a{
     text-decoration: none;
 }
-/*
-nav{
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    background-color: gray;
     width: 100%;
-    background-color: white;
-    padding-left: 30px;
-    padding-right: 10px;
-    color: white;
+    padding: 10px;
+
 }
 
 .nav-item{
     display: inline-block;
-    padding: 10px 15px;
-    color: white;
+    color:white;
+    margin: 25px;
 }
-/*
-.navbar{
-    background-color: blue;
-}
-.header{
-    padding: 20px;
-    background-color:bisque;
-    color: brown;
-    
-}
-.header h1{
-    display: inline-block;
-    font-size: 24px;
-}
-.header nav{
-float: right;
-padding: 20px;
-margin-right: 20px;
-font-size: 20px;
-}
-.header ul li{
-display: inline-block;
-}
-*/
+
+
+
 
