@@ -42,19 +42,34 @@
     font-size:20px;
 }
 
-.aside-text h1{
-    text-align: center;
-    background-color:#f64c72;
-    padding: 9px;
-}
-
 #aside-section{
     width: 255px;
     float: right;
-    height: 395px;
-    margin-top: 0px;
+    height: 370px;
+    margin-top: 15px;
+    background-color: #2d03a5;
 }
 
+.aside-text h1{
+    background-color:#f64c72;
+    color:white;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 32px;
+    margin: -1px;
+}
 
+.language-logo{
+    list-style-type: none;   
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-right: 40px;
+}
 
 
