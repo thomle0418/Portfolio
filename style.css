@@ -42,12 +42,17 @@
     font-size:20px;
 }
 
+.aside-text h1{
+    text-align: center;
+    background-color:#f64c72;
+    padding: 9px;
+}
+
 #aside-section{
     width: 255px;
     float: right;
     height: 395px;
-    border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 
