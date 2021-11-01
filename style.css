@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@200&family=Zen+Kurenaido&display=swap');
 *{
-    border: 1px solid red;
+    border: 1px solid transparent;
+}
+    
+
+#navbar{
+    background-color: #f64c72;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+}
+.nav-links:hover{
+    background-color: #ff90a8;
+}
+.nav-items{
+    font-family: 'montserrat', sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 #hero-image{
