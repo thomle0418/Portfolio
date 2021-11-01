@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@200&family=Zen+Kurenaido&display=swap');
 *{
     border: 1px solid transparent;
+    font-family: 'montserrat', sans-serif;
 }
     
 
@@ -41,6 +42,13 @@
     font-size:20px;
 }
 
+#aside-section{
+    width: 255px;
+    float: right;
+    height: 395px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
 
 
 
