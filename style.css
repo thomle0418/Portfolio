@@ -86,11 +86,23 @@
     width: 69%;
     background-color: #0e0460;
     color:red;
-    padding: 10px;
+    padding: 11px;
 }
 
 .quote{
     letter-spacing: 2px;
     font-family: 'Roboto mono', monospace;
     text-align: center;
+}
+
+.profile-pic{
+    width: 220px;
+    height: 200px;
+    border-radius:50%;
+}
+
+.about-me-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
