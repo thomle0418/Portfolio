@@ -3,7 +3,6 @@
     border: 1px solid transparent;
     font-family: 'montserrat', sans-serif;
 }
-    
 
 #navbar{
     background-color: #f64c72;
@@ -41,35 +40,42 @@
     font-family: 'montserrat', sans-serif;
     font-size:20px;
 }
-
 #aside-section{
-    width: 255px;
     float: right;
-    height: 370px;
-    margin-top: 15px;
-    background-color: #2d03a5;
-}
-
-.aside-text h1{
-    background-color:#f64c72;
+    box-sizing: border-box;
+    width: 30%;
+    height:100%;
+    text-align: center;
+    background-color: #0e0460;
     color:white;
-    display:flex;
-    position: relative;
-    justify-content: center;
-    width: 100%;
-    height: 32px;
-    margin: -1px;
+    margin-top: 10px;
+    border: transparent;
 }
 
-.language-logo{
-    list-style-type: none;   
+.aside-header{
+    background-color: #f64c72;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.logo{
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    margin-right: 40px;
+#projects{
+    box-sizing: border-box;
+    height: 100%;
+    width: 69%;
+    
+    color:white;
+    margin-top: 10px;
+    border: transparent;
 }
 
+.projects-header{
+    background-color: #f64c72;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+.project-item{
+    background-color: #0e0460;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
