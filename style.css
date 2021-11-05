@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@200&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 *{
     border: 1px solid transparent;
     font-family: 'montserrat', sans-serif;
@@ -78,4 +79,18 @@
     background-color: #0e0460;
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+#quote{
+    box-sizing: border-box;
+    width: 69%;
+    background-color: #0e0460;
+    color:red;
+    padding: 10px;
+}
+
+.quote{
+    letter-spacing: 2px;
+    font-family: 'Roboto mono', monospace;
+    text-align: center;
 }
