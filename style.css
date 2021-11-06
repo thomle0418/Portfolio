@@ -3,6 +3,7 @@
 *{
     border: 1px solid transparent;
     font-family: 'montserrat', sans-serif;
+    border-radius: 10px;
 }
 
 #navbar{
@@ -114,5 +115,16 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px; 
+    margin: 20px 0 20px 0;
+}
+
+.contact-me{
+    text-align: center;
+}
+.contact-icons{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
