@@ -45,7 +45,7 @@
     float: right;
     box-sizing: border-box;
     width: 30%;
-    height:100%;
+    
     text-align: center;
     background-color: #0e0460;
     color:white;
@@ -63,7 +63,6 @@
     box-sizing: border-box;
     height: 100%;
     width: 69%;
-    
     color:white;
     margin-top: 10px;
     border: transparent;
@@ -86,7 +85,7 @@
     width: 69%;
     background-color: #0e0460;
     color:red;
-    padding: 11px;
+    padding: 28px;
 }
 
 .quote{
@@ -105,4 +104,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: #26049d;
+    color:white;
 }
+
+.about-me-header{
+    background-color: #f64c72;
+    color: white; 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
