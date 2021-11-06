@@ -6,6 +6,7 @@
     border-radius: 10px;
 }
 
+/*Nav bar*/
 #navbar{
     background-color: #f64c72;
 }
@@ -26,6 +27,7 @@
     list-style-type: none;
 }
 
+/*hero section*/
 #hero-image{
     background-image: url(https://wallpaperaccess.com/full/3239444.jpg);
     background-size: cover;
@@ -43,6 +45,8 @@
     font-family: 'montserrat', sans-serif;
     font-size:20px;
 }
+
+/*Aside section*/
 #aside-section{
     float: right;
     box-sizing: border-box;
@@ -61,6 +65,7 @@
     margin-bottom: 0px;
 }
 
+/*Projects section*/
 #projects{
     box-sizing: border-box;
     height: 100%;
@@ -82,6 +87,7 @@
     margin-bottom: 2px;
 }
 
+/*Quotes section*/
 #quote{
     box-sizing: border-box;
     width: 69%;
@@ -95,7 +101,7 @@
     font-family: 'Roboto mono', monospace;
     text-align: center;
 }
-
+/*About me section*/
 .profile-pic{
     width: 220px;
     height: 200px;
@@ -118,7 +124,7 @@
     padding-bottom: 20px; 
     margin: 20px 0 20px 0;
 }
-
+/*Contact me section*/
 .contact-me{
     text-align: center;
 }
@@ -128,7 +134,7 @@
     justify-content: space-around;
     list-style-type: none;
 }
-
+/*Media queries-I don't know how to use these*/
 @media (min-width:320px)  
 { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 @media (min-width:480px)  
